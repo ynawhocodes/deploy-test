@@ -32,7 +32,12 @@ pip install django
 # 필요하다면 pip install --upgrade pip
 ```
 
-5. 프로젝트 생성 `django-admin startproject [프로젝트 이름]`
+4. 프로젝트 생성 `django-admin startproject [프로젝트 이름]`
 ```
 django-admin startproject myproject
+```
+
+5. 하위 폴더로 이동 후 상위 폴더(아까 있었던 폴더) 이름 변경
+``` 
+cd myproject
 ```
