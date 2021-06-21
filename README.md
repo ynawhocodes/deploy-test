@@ -25,7 +25,12 @@ for Window
 source myvenv/Scripts/activate
 ```
 
-3. 프로젝트 생성 `django-admin startproject [프로젝트 이름]`
+3. django 설치
+```
+pip install django
+```
+
+5. 프로젝트 생성 `django-admin startproject [프로젝트 이름]`
 ```
 django-admin startproject myproject
 ```
