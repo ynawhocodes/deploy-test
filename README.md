@@ -37,7 +37,27 @@ pip install django
 django-admin startproject myproject
 ```
 
-5. 하위 폴더로 이동 후 상위 폴더(아까 있었던 폴더) 이름 변경
-``` 
-cd myproject
+5. 폴더명 겹치지 않도록 현재 폴더든 상위폴더든 폴더명 변경
 ```
+deploy-test
+ ㄴ myproject
+    ㄴ project(난 요기 폴더명 변경했음)
+    ㄴ db.sqlite3
+    ㄴ manage.py
+ ㄴ myvenv
+```
+
+6. 하위 폴더로 이동
+``` 
+cd project
+```
+
+7. 서버 실행
+```
+python manage.py runserver
+```
+
+여기까지 하면 장고로켓이 발사되며 축하해준다
+
+
+
