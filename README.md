@@ -28,6 +28,8 @@ source myvenv/Scripts/activate
 3. django 설치
 ```
 pip install django
+
+# 필요하다면 pip install --upgrade pip
 ```
 
 5. 프로젝트 생성 `django-admin startproject [프로젝트 이름]`
