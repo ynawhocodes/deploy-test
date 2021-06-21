@@ -1,6 +1,6 @@
 # deploy-test
 
-
+### 1. 
 ```
 echo "# deploy-test" >> README.md
 git init
